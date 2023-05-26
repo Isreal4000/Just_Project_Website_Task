@@ -3,27 +3,13 @@
 }
 
 .container {
-  text-align: center;
+ margin: 0;
+ padding: 0;
 }
 
 .img-logo {
   margin-top: 5%;
-}
-
-ol {
-  margin: 0;
-}
-
-.top {
-  display: block;
-  margin-bottom: 1.8%;
-  line-height: 70%;
-}
-
-.main-container {
-  display: block;
-  margin-top: 1.8%;
-  margin-bottom: 1.8%;
+  text-align: center;
 }
 
 h2 {
@@ -32,20 +18,61 @@ h2 {
 
 hr {
   opacity: 0.35;
-  width: 32%;
+  width: 33.5%;
+}
+
+.top {
+  text-align: center;
+  display: block;
+  margin-bottom: 1.8%;
+  line-height: 70%;
+}
+
+.main-container {
+  display: block ;
+  text-align: center;
+  margin-top: 1.8%;
+  margin-bottom: 1.8%;
+}
+
+ol{
+  margin: 0;
+}
+
+.text-1{
+  margin-left: 30%;
+  margin-right: 31%;
+}
+
+.text-2{
+  margin-left: 25%;
+  margin-right: 28%;
 }
 
 .about-hr1 {
   opacity: 0.35;
   width: 43%;
 }
+
 .about-hr2 {
   opacity: 1;
   width: 43%;
 }
+
 .down {
+   text-align: center;
   margin-top: 1.9%;
   line-height: 6%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.btn{
+ display: flex;
+  justify-content: center;
+  gap: 4px;
 }
 
 button {
