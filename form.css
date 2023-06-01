@@ -1,1 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  background-color: white;
+  margin-left: 3%;
+}
+
+input[type="text"] {
+  margin-left: 5%;
+}
 
