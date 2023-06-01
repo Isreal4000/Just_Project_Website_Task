@@ -2,108 +2,94 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Israel Adediran" />
-    <meta name="description" content="This page contain Just Project Contact Form" />
-    <link rel="icon" href="favicon.jpg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <title>Contact Form</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-.inp{
-  display: inline-block;
-}
-    </style>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Israel Adediran" />
+  <meta name="description" content="This page contain Just Project Contact Form" />
+  <link rel="icon" href="favicon.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="form.css" />
+  <title>Form Page</title>
 </head>
+
 <body>
   <header>
     <h1>Contact Form</h1>
   </header>
   <main>
- <form action="/action_page.php">
+    <form action="/action_page.php">
+      <div>
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name" placeholder="Enter your Name" minlength="3" maxlength="32" required />
+      </div>
 
       <div>
-            <label for="Name">Name:</label>
-            <input type="text" id="Name" name="Name" placeholder="Enter your Name" minlength="3"
-              maxlength="32" required>
-          </div>
-      
+        <label for="userName">Username:</label>
+        <input type="text" id="userName" name="userName" placeholder="Enter your Username" minlength="3" maxlength="32"
+          required />
+      </div>
 
-        <div>
-   <label for="userName">Username:</label>
- <input type="text" id="userName" name="userName" placeholder="Enter your Username" minlength="3" maxlength="32"        required>
-        </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+          placeholder="Enter your Password" required />
+      </div>
 
-        <div>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Enter your Password"
-              required>
-        </div>
+      <div>
+        <label for="cpassword">Re-type Password:</label>
+        <input type="password" id="cpassword" name="cpassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+          placeholder="Enter your Password" required />
+      </div>
 
-        <div>
-            <label for="cpassword">Re-type Password:</label>
-            <input type="password" id="cpassword" name="cpassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Enter your Password" required>
-        </div>
-
-    <div>
-   <label for="Gender">Gender:</label>
+      <div>
+        <label for="Gender">Gender:</label>
         <label for="male">Male</label>
-        <input type="radio" name="gender" id="male">
+        <input type="radio" name="gender" id="male" />
 
         <label for="female">Female</label>
-        <input type="radio" name="gender" id="female">
-        </div>
+        <input type="radio" name="gender" id="female" />
+      </div>
 
-    <div>
+      <div>
         <label for="Tech">Techie Skills:</label>
-        <input type="checkbox" name="html" id="html" value="html">
-         <label for="html">HTML</label>
-       <input type="checkbox" name="css" id="css" value="css">
-       <label for="css">CSS</label>
-   <input type="checkbox" name="js" id="js" value="js">
-   <label for="js">JavaScript</label>
-</div>
+        <input type="checkbox" name="html" id="html" value="html" />
+        <label for="html">HTML</label>
+        <input type="checkbox" name="css" id="css" value="css" />
+        <label for="css">CSS</label>
+        <input type="checkbox" name="js" id="js" value="js" />
+        <label for="js">JavaScript</label>
+      </div>
 
+      <div>
+        <label for="pnumber">Phone Number:</label>
+        <input type="tel" id="pnumber" name="pnumber" placeholder="Enter your address" pattern="[+]{1}[0-9]{3}[0-9]{10}"
+          required />
+      </div>
 
-        <div>
-     <label for="pnumber">Phone Number:</label>
-       <input type="tel" id="pnumber" name="pnumber" placeholder="Enter your address" pattern="[+]{1}[0-9]{3}[0-9]{10}"
-              required>
-        </div>
+      <div>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Emailaddress" required />
+      </div>
 
-          <div>
-   <label for="email">Email Address:</label>
-   <input type="email" id="email" name="email" placeholder="Enter your Emailaddress" required>
-        </div>
+      <div>
+        <label for="college">College:</label>
+        <select id="college" name="college" required>
+          <option value="" disabled selected hidden>Select a College</option>
+          <option value="uni1">University of Ibadan</option>
+          <option value="uni2">University of Lagos</option>
+        </select>
+      </div>
 
-        <div>
-     <label for="college">College:</label>
-          <select id="college" name="college" required>
-            <option value="" disabled selected hidden>Select a College</option> 
-            <option value="uni1"> University of Ibadan</option>
-            <option value="uni2">University of Lagos</option>
-          </select>
-        </div>
-
-          <div>
-            <input type="Submit" value="Submit">
-        </div>
-
+      <div>
+        <input type="Submit" value="Submit" />
+      </div>
     </form>
   </main>
-
   <footer>
-    Copyright &copy;2023- All Right Reserved.
+    <p>Copyright &copy;2023- All Right Reserved</p>
     <p><a href="index.html">Back to Home</a></p>
   </footer>
 </body>
