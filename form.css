@@ -1,24 +1,96 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Wix Madefor Display", sans-serif;
-}
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Wix Madefor Display', sans-serif;
+ }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    margin: auto auto;
+    width:50%;
+  }
+  
+  .up-down-space {
+    margin-top: 3.5%;
+    margin-bottom: 3.5%;
+  }
+  
+  .name{
+    margin-left: 21.5%;
+    width: 45%;
+    padding:2%;
+  }
+  
+  .user{
+    margin-left: 15%;
+    width: 45%;
+    padding:2%;
+  }
+  
+  .pwd{
+    margin-left: 16%;
+    width: 45%;
+    padding:2%;
+  }
+  
+  .retype {
+    margin-left: 5%;
+    width:45%;
+    padding:2%;
+  }
+ 
+ .gender{
+   display:inline;
+   margin-left: 19%;
+ }
+ 
+  .gender-space{
+    margin-bottom: 2.5%;
+  }
+  
+  .techie{
+    display: inline;
+    margin-left: 12.6%;
+  }
+  
+  .techie-space{
+    margin-bottom: 3.5%;
+  }
+  
+  .phn{
+    margin-left: 8%;
+    width: 45%;
+    padding:2%;
+  }
+  
+  .email{
+    margin-left: 9%;
+    width:45%;
+    padding:2%;
+  }
+  
+  .col{
+    width: 45%;
+    margin-left: 19%;
+    padding:2%;
+  }
+  
+  .submit-space{
+    width: 45%;
+    margin-left: 35%;
+    padding:2%;
+  }
+  footer{
+    text-align: center;
+  }
+  
+  
 
-body {
-  background-color: whitesmoke;
-}
 
-h1 {
-  text-align: center;
-}
 
-form {
-  background-color: white;
-  margin-left: 3%;
-}
 
-input[type="text"] {
-  margin-left: 5%;
-}
 
