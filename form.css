@@ -1,96 +1,121 @@
 * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Wix Madefor Display', sans-serif;
- }
-  
-  h2 {
-    text-align: center;
-  }
-  
-  form {
-    margin: auto auto;
-    width:50%;
-  }
-  
-  .up-down-space {
-    margin-top: 3.5%;
-    margin-bottom: 3.5%;
-  }
-  
-  .name{
-    margin-left: 21.5%;
-    width: 45%;
-    padding:2%;
-  }
-  
-  .user{
-    margin-left: 15%;
-    width: 45%;
-    padding:2%;
-  }
-  
-  .pwd{
-    margin-left: 16%;
-    width: 45%;
-    padding:2%;
-  }
-  
-  .retype {
-    margin-left: 5%;
-    width:45%;
-    padding:2%;
-  }
- 
- .gender{
-   display:inline;
-   margin-left: 19%;
- }
- 
-  .gender-space{
-    margin-bottom: 2.5%;
-  }
-  
-  .techie{
-    display: inline;
-    margin-left: 12.6%;
-  }
-  
-  .techie-space{
-    margin-bottom: 3.5%;
-  }
-  
-  .phn{
-    margin-left: 8%;
-    width: 45%;
-    padding:2%;
-  }
-  
-  .email{
-    margin-left: 9%;
-    width:45%;
-    padding:2%;
-  }
-  
-  .col{
-    width: 45%;
-    margin-left: 19%;
-    padding:2%;
-  }
-  
-  .submit-space{
-    width: 45%;
-    margin-left: 35%;
-    padding:2%;
-  }
-  footer{
-    text-align: center;
-  }
-  
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background: #f5f5f5;
+  margin: 0 auto;
+}
 
+.container{
+  margin: 0 auto;
+}
 
+h2 {
+  font-family: "Halant", serif;
+  font-weight: 600;
+  font-size: 64px;
+}
 
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 
+main {
+  background-color: white;
+}
+
+::placeholder,select{
+font-family: 'Manrope', sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #797979;;
+}
+
+label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  font-family: "Halant", serif;
+  margin: 0 aut0
+}
+
+.up-down-space,input {
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+.name {
+  margin-left: 18%;
+  width: 30%;
+  height: 56px;
+}
+
+.user {
+  margin-left: 13%;
+  width: 400px;
+  height: 56px;
+}
+
+.pwd {
+  margin-left: 14%;
+  width: 400px;
+  height: 56px;
+}
+
+.retype {
+  margin-left: 5%;
+  width: 400px;
+  height: 56px;
+}
+
+.gender {
+  display: inline;
+  margin-left: 16.5%;
+}
+
+.gender-space {
+  margin-bottom: 2.5%;
+}
+
+.techie {
+  display: inline;
+  margin-left: 11.5%;
+}
+
+.techie-space {
+  margin-bottom: 3.5%;
+}
+
+.phn {
+  margin-left: 8%;
+  width: 400px;
+  height: 56px;
+}
+
+.email {
+  margin-left: 9%;
+  width: 400px;
+  height: 56px;
+}
+
+.col {
+  width: 400px;
+  height: 56px;
+  margin-left: 16%;
+}
+
+.submit-space {
+  width: 400px;
+  height: 56px;
+  background: #155eef;
+  border-radius: 4px;
+  margin-left: 25%;
+}
+
+footer {
+  text-align: center;
+}
